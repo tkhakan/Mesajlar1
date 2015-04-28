@@ -1,0 +1,54 @@
+<LinearLayout 
+android:layout_height="match_parent" 
+android:layout_width="match_parent" 
+android:orientation="horizontal" 
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView 
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="30dip"
+        
+        android:src="@drawable/sms2"
+        
+        
+        />
+  <LinearLayout
+ android:layout_height="wrap_content" 
+ android:layout_width="fill_parent" 
+ android:orientation="vertical">   
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/txt_msgTO" 
+    android:text="Large Text" 
+    android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/txt_messageContent" 
+    android:text="Medium Text" 
+    android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/txt" 
+    android:text="" 
+    android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+<TextView 
+    android:layout_height="wrap_content" 
+    android:layout_width="wrap_content" 
+    android:id="@+id/txt_messageDate" 
+    android:text="Small Text" 
+    android:textAppearance="?android:attr/textAppearanceSmall"/>
+    
+</LinearLayout>
+
+</LinearLayout>
